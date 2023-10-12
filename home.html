@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Manager</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #28469e;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    section {
+      padding: 2em;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .event-container {
+      width: 48%;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      margin-bottom: 2em;
+    }
+
+    .event {
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    .event img {
+      width: 100%;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+
+    .event-details {
+      padding: 1em;
+    }
+
+    .event-title {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      background-color: #333;
+      color: #fff;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Event Manager</h1>
+  </header>
+
+  <section>
+    <div class="event-container">
+      <div class="event">
+        <img src="https://cdn.pixabay.com/photo/2017/07/21/23/57/concert-2527495_1280.jpg" alt="Event 1">
+        <div class="event-details">
+          <h2 class="event-title">Event 1</h2>
+          <a href="#" class="button">Book Tickets</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="event-container">
+      <div class="event">
+        <img src="https://cdn.pixabay.com/photo/2017/07/21/23/57/concert-2527495_1280.jpg" alt="Event 2">
+        <div class="event-details">
+          <h2 class="event-title">Event 2</h2>
+          <a href="#" class="button">Book Tickets</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
